@@ -25,23 +25,23 @@ const ATB = (props) => {
                                 <img src={AuthorImg} alt="Dr. Larry E. Banta"/>
                             </div>
 
-                            <div className="heading-quote">
-                                <h4>
-                                We must be all about PASSING OUR FAITH ALONG <br/><br/>
+                            {/* <div className="heading-quote"> */}
+                            {/* <span className="ata-span-fx"> */}
+                                <h4> 
+                                We must be all about PASSING OUR FAITH ALONG <br/>
 
 •	By walking the talk <br/>
 •	By talking the walk<br/>
 •	By living the Word <br/>
 
-In order to be salt and light in the lives of the children.<br/><br/>
+In order to be salt and light in the lives of the children.<br/>
 
 
-IT TAKES MORE THAN LOVE—IT TAKES AGAPE LOVE.<br/><br/>
-
+IT TAKES MORE THAN LOVE—IT TAKES AGAPE LOVE.                                
                                 </h4>
-                                <span className="ata-span-fx">
-                                </span>
-                            </div>
+                                {/* </span> */}
+                    
+                            
 
                         </div>
 

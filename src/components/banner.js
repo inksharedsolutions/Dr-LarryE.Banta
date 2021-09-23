@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <>
             <section className="banner-section">
-                <div className="container-gt">
+                <div className="container-gt id= banner-text-gt">
                     <div className="one-grid-columns">
                         <div className="grid-child-elem">
                             <div className="banner-text">

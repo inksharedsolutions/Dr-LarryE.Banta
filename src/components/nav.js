@@ -9,7 +9,7 @@ const Nav = (props) => {
 
     const pages = [
         'Home',
-        'About-the-Author',
+        'Author',
         'Book',
         'Contact'
     ]
@@ -17,10 +17,16 @@ const Nav = (props) => {
     let Listed = pages.map((e) => {
 
         var newUrl = ((e).replace(/[ /]/g, "-").trim().toLowerCase());
-        let filterUrl = (newUrl === 'home') ? '/' : `/${newUrl}`;
-
+        
+        let filterUrl = (newUrl === 'home') ? '/' 
+        :(newUrl==='author')?'/about-the-author' :
+        newUrl==='book'? `/${newUrl}s`:
+        `/${newUrl}`;
+       
         return (
+            
             <li>
+                
                 <Link
                     to={filterUrl}>
                     {e.replace(/[-/]/g, " ").trim()}
@@ -44,6 +50,7 @@ const Nav = (props) => {
                 </li>
 
                 <li>
+
                     <Link to="/about-the-author">
                         Author
 					</Link>

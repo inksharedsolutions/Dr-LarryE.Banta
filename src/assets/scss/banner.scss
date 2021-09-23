@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: 1fr;
     height: 70vh;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     max-width: 500px;
     margin: 0 auto;
@@ -90,9 +90,9 @@
 
     // &:after {
         content: "";
-        background: url("../../../static/banner/banner.jpg") no-repeat;
+        background: url("../../../static/banner/banner0.png") no-repeat;
         position: relative;
-        height: 90vh;
+        height: 100vh;
         width: 100%;
         top: 0;
         background-position: center;
@@ -152,12 +152,13 @@
     width: 50rem;
     line-height: 1;
     z-index: 1;
-    padding-top: 10em;
+    padding-top: 17em;
+    padding-right: 88px;
 
     h1 {
 
         // text-transform: capitalize;
-        text-shadow: 8px 6px #364743;
+        text-shadow: 8px 6px #364743b4;
         font-size: 7rem;
         line-height: 1;
         font-weight: 900;
@@ -196,11 +197,15 @@
         text-align: center;
         // text-transform: uppercase;
         padding: 2% 0;
-        background-color: #eaebeb8c ;
+        background-color: #bbeeee79 ;
+        
     }
 
     span {
         display: block;
+        font-size: 30px;
+        font-family: 'FS Elliot Pro-Bold';
+        font-style: italic;
     }
 
     a {

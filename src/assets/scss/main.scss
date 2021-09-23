@@ -54,7 +54,7 @@ body {
 h1,
 h2 {
     font-size: 1.6em;
-    color: #ffffffd9 !important;
+    color: #ffffff !important;
 }
 
 h3,
@@ -73,7 +73,7 @@ a,
 qoute,
 span,
 blockquote {
-    font-size: 1.2em;
+    font-size: 1.5em;
     // color: #7b7b7bee !important;
 }
 
@@ -84,7 +84,7 @@ blockquote {
 
 p {
     line-height: 1.7;
-    margin: 2.2em 0 !important;
+    margin: 2.2em 0;
     color: #000000;
     
 }
@@ -130,6 +130,21 @@ button {
         359deg, #37b6b6 0, #ffffff);;
     // background: #1F1F21;
 }
+.ata-name {
+    color: #ffffff ;
+    font-family: "augusta-free";
+    font-size: 4vw;
+}
+#author{
+    font-size: 1em;
+}
+.contactMessage {
+	font-size: 25px ;
+	margin-bottom: 24px;
+	color: #000000;
+}
+
+
 
 /*Grid Elements*/
 
@@ -150,4 +165,11 @@ button {
 .container-gt {
     max-width: 1400px;
     margin: 0 auto;
+}
+.content-wraps{
+    h1{
+        span{
+            line-height: 1;
+        }
+    }
 }

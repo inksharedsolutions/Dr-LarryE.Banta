@@ -50,11 +50,16 @@ const Contact = (props) => {
 
                         <form
                             onSubmit={OnSubmitForm}
-                            action="https://formspree.io/xvopdpny"
+                            action="https://formspree.io/f/mbjqoneo"
                             method="POST">
 
                             <div className="columns" id="form-wrapper">
                                 <div className="column is-half">
+
+                                    <input 
+                                    type="hidden" 
+                                    name= "author"
+                                    value="Dr. Larry E. Banta"/>
 
                                     <Inputs
                                         name="fullname"

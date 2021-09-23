@@ -87,8 +87,9 @@
 
 	.middle-params {
 		width: 70%;
-		margin: 0 auto !important;
-	}
+		margin: 0 auto !important
+		
+	}	
 
 	#wrapper-two-books {
 		margin: 5% 0;
@@ -98,13 +99,19 @@
 		align-items: center;
 		text-align: left;
 	}
+
+}
+.container-gt{
+	.middle-params{
+		padding-bottom: 50px;
+	}
 }
 
 .mid-main {
 	text-align: center;
 	background: linear-gradient(to bottom, #98dfd2 1%, #067b86);
 	// background: #090911;
-	padding: 4% 0;
+	padding: 6% 0;
 
 	h1 {
 		font-size: 2.5em;
@@ -119,15 +126,18 @@
 
 	li {
 		list-style-type: none;
+		padding-top:  20px;
+		padding-left: 10px;
+		padding-right: 10px;
 
 		img {
-			width: 70%;
+			width: 90%;
 		}
 	}
 
-	#logos-col {
-		margin: 6% 0;
-	}
+	// #logos-col {
+	// 	margin: 6% 0;
+	// }
 }
 
 .wrapper-auth-content {
@@ -670,5 +680,10 @@
 			left: 0;
 			right: 0;
 		}
+	}
+}
+.contentBook{
+	span{
+		font-size: 1.5em;
 	}
 }

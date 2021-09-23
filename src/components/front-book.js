@@ -24,7 +24,7 @@ const MidBook = (props) => {
                             </h1>
 
                             <p data-aos="fade-up" data-aos-duration="2000">
-                            The primary purpose of this book is to assist those caring for children unable to be with their original parents. There are many reasons this occurs. Some might be truly orphaned, their parents having died from AIDS, Ebola, or another epidemic or because of an accident, war, terrorism, or some other illness or tragedy. Others perhaps come from situations in which original parents or adoptive parents are not able to care for them due to factors related to either the child or parents. Whatever the situation, these children do not have the advantage of living with their original set of parents and are now in some type of alternative home placement.
+                            The primary purpose of this book is to assist those caring for children unable to be with their original parents. There are many reasons this occurs. Some might be truly orphaned, their parents having died from AIDS, Ebola, or another epidemic or because of an accident, war, terrorism, or some other illness or tragedy.
                             </p>
 
                             <button className="btn-book-featured" data-aos="fade-up" data-aos-duration="3000">

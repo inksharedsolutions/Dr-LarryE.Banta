@@ -43,39 +43,48 @@ $prm-font-size: 12px;
 
 .columns {
 	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .body-author-contents {
-	margin: 4em 0 !important;
+	margin: 4em 0;
 	// background: #eee;
 	padding: 0px;
 }
 
-.heading-quote {
-	padding: 0 15px;
-	margin: 3.1em 0;
-	text-align: justify;
+// .heading-quote {
+// 	padding: 0 15px;
+// 	margin: 3.1em 0;
+// 	text-align: justify;
 
-	h4 {
-		font-weight: 100;
-		line-height: 1.7;
-		font-size: 20px;
-		font-style: italic;
-		margin-top: 49px !important;
-		font-family: 'Fanwood Text', serif;
-		color: #0e4e13;
-		margin: 0 14%;
-	}
-}
+// 	h4 {
+// 		font-weight: 100;
+// 		line-height: 1.7;
+// 		font-size: 20px;
+// 		font-style: italic;
+// 		margin-top: 49px !important;
+// 		font-family: 'Fanwood Text', serif;
+// 		color: #0e4e13;
+// 		margin: 0 14%;
+// 	}
+// }
 
-.ata-span-fx {
-	font-size: 9px;
-	letter-spacing: 5px;
-	text-transform: uppercase;
-	display: block;
-	color: #929292;
-	margin: 29px 14%;
+ h4{
+	font-weight: 100;
+	line-height: 1.7;
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 49px !important;
+	font-family: 'Fanwood Text', serif;
+	color: #0e4e13;
+	margin: -41px 14%;
+	
 }
+// .heading-qoute{
+// 	.ata-span-fx{
+// 		padding-left: 50px;
+// 	}
+// }
 
 .author-image-container {
 	text-align: center;
@@ -179,11 +188,11 @@ $prm-font-size: 12px;
 	padding: 7px;
 }
 
-.contactMessage {
-	font-size: 25px ;
-	margin-bottom: 24px !important;
-	color: #000000;
-}
+// .contactMessage {
+// 	font-size: 25px ;
+// 	margin-bottom: 24px !important;
+// 	color: #000000;
+// }
 
 .flexMainContainer {
 	margin: 71px 0;
@@ -277,13 +286,11 @@ $prm-font-size: 12px;
 		color: #ffffff !important;
 		font-size: 13px;
 	}
+	
 }
 
-.ata-name {
-	color: #ffffff ;
-	font-family: "augusta-free";
-	font-size: 6vw;
-}
+
+
 
 
 .disqus-container-bars {
@@ -384,9 +391,8 @@ $prm-font-size: 12px;
 		color: #383838ee;
 		margin: 0.5em 0;
 		display: block;
-		font-size: 1.5em;
 		font-family: 'FS Elliot Pro Bold', serif;
-		color: #256161;
+		color: #091337;
 		font-style: italic;
 
 		&:after {
@@ -457,4 +463,13 @@ $prm-font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 22px;
+}
+
+#author-name{
+	.ata-name {
+		color: #ffffff ;
+		font-family: "augusta-free";
+		font-size: 4vw;
+	}
+
 }

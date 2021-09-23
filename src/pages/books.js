@@ -20,7 +20,7 @@ const ATB = (props) => {
     return (
         <>
             <Layout>
-                <Helmet title="Books | Dr. Larry E. Banta" />
+                <Helmet title="Book | Dr. Larry E. Banta" />
                 <Nav pathExt={props.path} />
 
                 <Banner
@@ -68,7 +68,7 @@ const ATB = (props) => {
                                 paperback: {
                                     amazon: 'https://www.amazon.com/Help-Hurting-Child-Approaches-Therapeutic/dp/1648954820/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1628545767&sr=8-1',
                                     barnes: 'https://www.barnesandnoble.com/w/help-for-the-hurting-child-md-fapa-larry-banta-e/1139976652?ean=9781648954825',
-                                    booksamillion: 'https://www.booksamillion.com/search?filter=&id=8258036461372&query=9781648954825',
+                                    booksamillion: 'https://www.booksamillion.com/p/Help-Hurting-Child/Fapa-Larry-Banta/9781648954825?id=8312449787077',
                                 }
                             }}
                         />
