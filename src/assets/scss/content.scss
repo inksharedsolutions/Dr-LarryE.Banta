@@ -433,6 +433,13 @@
 	height: 60vh;
 }
 
+.flex-container-fx{
+	padding: 0 46px;
+}
+
+.sub-heading{
+	font-size: 22px;
+}
 .flex-container {
 	display: grid;
 	height: 60vh;
@@ -637,6 +644,7 @@
 		font-weight: 900;
 		letter-spacing: 0.5rem;
 		color: #525050 !important;
+		font-size: inherit;
 	}
 
 	h1 {
@@ -647,7 +655,7 @@
 			font-weight: 900;
 			display: block;
 			letter-spacing: 0;
-			line-height: 1;
+			line-height: 1.5;
 		}
 	}
 }

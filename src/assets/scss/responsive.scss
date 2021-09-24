@@ -3,12 +3,23 @@
 */
 @media screen and (max-height: 768px){
 	.banner-text{
+		padding-top: 210px;
+		padding-right: 0;
+		width: 40rem;
 		span{
-			font-size: 30px;
+			font-size: 25px;
+		}
+		h1{
+			font-size: 92px;
 		}
 	}
 	#author-contents h1{
 		font-size: 42px;
+	}
+	.banner-section{
+		.one-grid-columns{
+			justify-content: center;
+		}
 	}
 	// .navigation{
 	// 	width: 84%;
@@ -87,7 +98,7 @@
 	}
 	#author-contents h1 {
 		span{
-			font-size: 47px;
+			font-size: 41px;
 		}
 
 	}
@@ -380,7 +391,7 @@
 	}
 	#author-contents h1{
 		span{
-		font-size: 68px;
+		font-size: 60px;
 		}
 	
 
@@ -411,7 +422,7 @@
 		}
 		.article-section p{
 			padding: 0 10px;
-			font-size: 22px;
+			font-size: 20px;
 		}
 	}
 	
@@ -536,7 +547,7 @@
 	}
 
 	.body-author-contents {
-		padding: 30px !important;
+		padding: 10px !important;
 		margin: 0;
 	}
 
@@ -744,6 +755,9 @@
 			font-size: 18px;
 		}
 	}
+	.flex-container-fx{
+		padding: 0 20px;
+	}
 
 	.mid-main{
 		li {
@@ -894,7 +908,7 @@
 	
 	}
 	#author-contents h1 span {
-		font-size: 37px;
+		font-size: 32px;
 	}
 	// .ata-span-fx{
 		// h4{
@@ -911,7 +925,7 @@
 }
 @media screen and (max-height:720px) {
 	#author-contents h1 span {
-		font-size: 30px;
+		font-size: 38px;
 	}
 	.banner-text h1{
 		font-size: 13vw ;
@@ -926,10 +940,32 @@
 
 @media screen and (max-width:411px) {
 	#author-contents h1 span {
-		font-size: 30px;
+		font-size: 28px;
 	}
 	
 }
+@media screen and(max-height:667px){
+	.contentBook p{
+
+	font-size: 19px;
+		
+	}
+	
+}
+@media screen and(max-width:375px){
+	.contentBook p{
+
+		font-size: 17px;
+	}
+}
+
+@media screen and(max-width:360px){
+	.contentBook p{
+
+		font-size: 17px;
+	}
+}
+
 
 @media screen and(max-width:320px) {
 	.container{
@@ -942,6 +978,12 @@
 			font-size: 15px;
 		}
 	}
+
+	.wrapperMain{
+		padding: 17px;
+	}
+
+
 	.heading-quote{
 		margin: 1em 0;
 	}
@@ -951,6 +993,12 @@
 			
 		}
 	}
+
+	.contentBook p{
+
+		font-size: 15px;
+	}
+	
 	.wrapper-ds {
 		height: 500px;
 	}
@@ -960,7 +1008,7 @@
 	}
 	#author-contents h1 {
 span {
-		font-size: 28px;}
+		font-size: 24px;}
 	}	
 
 }
@@ -972,7 +1020,13 @@ span {
 		width: auto;
 		line-height: 1;
 		z-index: 1;
-		padding-top: 20em;
+		padding-top: 0em;
+	}
+	#author-contents h1{
+		span{
+			font-size: 32px;
+		}
+
 	}
 
 	.banner-section {
@@ -1000,7 +1054,7 @@ span {
 	.banner-text {
 		h1 {
 			text-transform: uppercase;
-			font-size: 20px;
+			font-size: 34px;
 			line-height: 1;
 			font-weight: 900;
 			color: #e9e9e9 !important;

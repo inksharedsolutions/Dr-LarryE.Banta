@@ -11,7 +11,7 @@ import { Helmet } from 'react-helmet';
 
 const IndexPage = (props) => (
 	<Layout>
-		<Helmet title="Home | Dr. Larry E. Banta" />
+		<Helmet title="Home | Larry E. Banta, MD" />
 		<Nav pathExt={props.path} />
 		<Banner />
 		<MidBook />

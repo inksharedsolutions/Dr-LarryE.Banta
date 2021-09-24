@@ -16,13 +16,13 @@ const Author = () => {
 
                         <h1 className="author-name-tag" >
                             <span></span>
-                            <span>Dr. Larry E. Banta</span>
+                            <span>Larry E. Banta, MD</span>
                         </h1>
 
                         <span className="author-tagline">Author & Writer</span>
 
                         <button className="buttonLayouts" data-aos="fade-up" data-aos-duration="3000" >
-                            <Link to="/author">Read More</Link>
+                            <Link to="/about-the-author">Read More</Link>
                         </button>
                     </div>
 

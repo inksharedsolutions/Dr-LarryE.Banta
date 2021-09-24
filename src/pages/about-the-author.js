@@ -10,7 +10,7 @@ const ATB = (props) => {
     return (
         <>
             <Layout>
-                <Helmet title="Author | Dr. Larry E. Banta" />
+                <Helmet title="Author | Larry E. Banta, MD" />
                 <Nav pathExt={props.path} />
 
                 <Banner
@@ -22,7 +22,7 @@ const ATB = (props) => {
 
                         <div className="heading-quote column">
                             <div className="author-image-container">
-                                <img src={AuthorImg} alt="Dr. Larry E. Banta"/>
+                                <img src={AuthorImg} alt="Larry E. Banta, MD"/>
                             </div>
 
                             {/* <div className="heading-quote"> */}
@@ -82,7 +82,7 @@ Following general psychiatry residency, Larry completed a fellowship in child an
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author | Writer </span>
-                                    <span className="ata-name">Dr. Larry E. Banta</span>
+                                    <span className="ata-name">Larry E. Banta, MD</span>
                                 </span>
                             </p>
 

@@ -11,7 +11,7 @@ const MidMain = () => {
                 <div className="container-gt separator-line">
                     <h1>Featured</h1>
                     <p className="middle-params">
-                        Dr. Larry E. Banta has been featured numerous times on...
+                        Larry E. Banta, MD has been featured numerous times on...
                     </p>
 
                     <div className="grid-template-four-col" id="logos-col">
