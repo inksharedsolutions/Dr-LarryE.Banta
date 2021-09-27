@@ -15,11 +15,11 @@ const MidMain = () => {
                     </p>
 
                     <div className="grid-template-four-col" id="logos-col">
-                        <li>
+                        <li class>
                             <img src={Logo1} alt="Amazon logo"/>
                         </li>
 
-                        <li>
+                        <li class>
                             <img src={Logo2} alt="Books-A-Million logo"/>
                         </li>
 

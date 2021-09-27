@@ -490,6 +490,7 @@
 
 		
 	}
+	
 
 	#logos-col {
 		margin: 6% -60px;
@@ -510,7 +511,7 @@
 
 @media screen and (max-width: 650px) {
 	.ata-name{
-		font-size: 10vw;
+		font-size: 9vw;
 	}
 	.grid-template-four-col {
 		grid-template-columns: 1fr 1fr;
@@ -866,7 +867,7 @@
 		}
 	}
 	.ata-name{
-		font-size: 8vw;
+		font-size: 7.7vw;
 	}
 	.banner-text {
 		p {
@@ -965,7 +966,11 @@
 		font-size: 17px;
 	}
 }
-
+@media  screen and (max-width:360px) {
+	.ata-name{
+		font-size: 7.5vw;
+	}
+}
 
 @media screen and(max-width:320px) {
 	.container{
@@ -978,6 +983,10 @@
 			font-size: 15px;
 		}
 	}
+	.ata-name{
+		font-size: 7vw;
+	}
+	
 
 	.wrapperMain{
 		padding: 17px;
@@ -1024,7 +1033,7 @@ span {
 	}
 	#author-contents h1{
 		span{
-			font-size: 32px;
+			font-size: 23px;
 		}
 
 	}
